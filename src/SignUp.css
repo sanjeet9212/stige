@@ -1,0 +1,106 @@
+.sign-up{
+    background-color: #e9ebee;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-sign-in-up{
+    display: flex;
+    flex-direction: row;
+    width: 652px;
+    background-color: #fff;
+    height: 60px;
+    margin-top: 81px;
+    margin-bottom: -75px;
+    align-self: center;
+    align-content: center;
+}
+
+.signin-sign-in-up .signin-login{
+    background-color: whitesmoke;
+    width: 50%;
+    height: 100%;
+    padding-top: 12px;
+}
+
+.signin-sign-in-up .signin-login:hover{
+    background-color: azure;
+    cursor: pointer;
+}
+
+
+.signin-sign-in-up .signin-logout{
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    padding-top: 12px;
+}
+
+.signin-sign-in-up .signin-logout:hover{
+    cursor: none;
+}
+
+.sign-up_container{
+    width: 612px;
+    height: 372px;
+    margin-top: 81px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    align-self: center;
+}
+
+.sign-up_container > h1{
+    margin-top: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sign-up_container > form > center > input{
+    height:33px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 300px;
+    border: 0.5px solid gray;
+}
+
+.sign-up_button{
+    background-color: blue;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+    width: 300px;
+    margin-top: 10px;
+    cursor: pointer;
+    height: 42px;
+}
+
+.sign-up_button:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+.sign-up_container > form > center > hr{
+    margin: 25px;
+    color: rgb(221, 221, 221);
+    border: 1px solid;
+    width: 400px;
+}
+
+.sign-up_container > form > center > p{
+    margin: 20px;
+    color: #426742;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sign-up_policy span{
+    color:rgb(56, 148, 207);
+}
+ .sign-up_policy span:hover{
+     cursor: pointer;
+ }
